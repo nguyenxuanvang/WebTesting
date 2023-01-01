@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTesting</title>
+    <link rel="stylesheet" href="./File-css/general.css">
+    <link rel="stylesheet" href="./File-css/CheckMarriageAge.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kiểm Tra Tuổi Kết Hôn</h1>
+        <table>
+            <tr>
+                <td>
+                    <p>Giới Tính:</p>
+                </td>
+                <td style="text-align: center;">
+                    Nam
+                    <input name="gender" type="radio" value="boy">
+                    Nữ
+                    <input name="gender" type="radio" value="girl">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Ngày Sinh: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tháng Sinh: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Năm Sinh: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+        </table>
+        <div class="button-fnd">
+            <button>Kiểm Tra</button>
+        </div>
+        <p class="alert-your-birthday hidden"></p>
+    </div>
+    <p class="notice hidden"></p>
+    <audio src="ThayHuan.mp3" type="audio/mpeg" loop></audio>
+    <script src="./file-javascripts/general.js"></script>
+    <script src="./file-javascripts/CheckMarriageAge.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.container {
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 150px auto;
+    border: 1px solid #5b4b4b;
+    border-radius: 15px;
+    text-align: center;
+}
+h2 {
+    position: relative;
+    top: 10px;
+}
+h3 {
+    position: relative;
+    top: 15px;
+}
+table {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    align-items: center;
+}
+input {
+    padding: 1.5px;
+}
+input:focus {
+    outline: none;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+button {
+    margin-top: 10px;
+}
+.notice {
+    position: relative;
+    bottom: 10px;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 700;
+}
+.result-notice {
+    font-size: 20px;
+    font-weight: 700;
+    color: #392929;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}

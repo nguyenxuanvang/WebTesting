@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="./File-css/general.css">
+    <link rel="stylesheet" href="./File-css/registration.css">
+</head>
+<body>
+    <div class="registration-form container-login-registration">
+        <div class="header-form">
+            <p>Đăng ký tài khoản</p>
+        </div>
+        <form class="user-password">
+            <div class="user">
+                <ion-icon name="person"></ion-icon>
+                <input type="text" placeholder="Tên tài khoản (không dấu)">
+                <p class="hidden"></p>
+            </div>
+            <div class="password">
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="password" placeholder="Mật khẩu (6-15 kí tự)">
+                <p class="hidden"></p>
+            </div>
+            <div class="password-again">
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="password" placeholder="Xác nhận mật khẩu">
+                <p class="hidden"></p>
+            </div>
+        </form>
+       
+        <div class="button-registration">
+            <button>Đăng Ký</button>
+        </div>
+        <p class="alertRegistration hidden">Đăng Ký Thành Công</p>
+        <div class="change-to-login">
+            <p>Bạn đã có tài khoản ? </p>
+            <a href="./login.html">Đăng Nhập</a>
+        </div>
+    </div>
+    <audio src="ThayHuan.mp3" type="audio/mpeg" loop></audio>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./file-javascripts/general.js"></script>
+    <script src="./file-javascripts/registration.js"></script>
+</body>
+</html>

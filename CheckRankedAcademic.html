@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTesting</title>
+    <link rel="stylesheet" href="./File-css/general.css">
+    <link rel="stylesheet" href="./File-css/CheckRankedAcademic.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Xếp Loại Học Lực</h1>
+        <table>
+            <tr>
+                <td>
+                    <p>Điểm Toán: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Điểm Văn: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Điểm Anh: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Điểm Trung Bình: </p>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+        </table>
+        <div class="button-chr">
+            <button>Check Rank</button>
+        </div>
+        <p class="alert-Academic"></p>
+    </div>
+    <p class="notice hidden"></p>
+    <div class="note">
+        Tb >= 9 && (Anh || Toán || Văn >= 7.5): Suất Xắc ~ Giỏi 
+        <br>
+        Tb >= 8 && (Anh || Toán || Văn >= 6.5) : Giỏi ~ Khá 
+        <br>
+        Tb >= 7 && (Anh || Toán || Văn >= 5.5) : Khá ~ Tiên Tiến 
+        <br>
+        Tb >= 6 && (Anh || Toán || Văn >= 4.5) : Tiên Tiến ~ Trung Bình 
+        <br>
+        Tb >= 5 && (Anh || Toán || Văn >= 3.5) : Trung Bình ~ Kém 
+        <br>
+        Tb >= 4 && (Anh || Toán || Văn >= 2.5) : Kém ~ Yếu 
+        <br>
+        Tb < 4 : Yếu
+    </div>
+    <audio src="ThayHuan.mp3" type="audio/mpeg" loop></audio>
+    <script src="./file-javascripts/general.js"></script>
+    <script src="./file-javascripts/CheckRankedAcademic.js"></script>
+</body>
+</html>

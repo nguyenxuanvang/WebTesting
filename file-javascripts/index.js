@@ -40,11 +40,9 @@ if(conditionLogin) {
     functions[8].addEventListener('click',()=>{
         playVideo.classList.remove('hidden');
         playVideo.children[0].play();
-        audioNode.muted = true;
         setTimeout(()=>{
             playVideo.classList.add('hidden');
-            audioNode.muted = false;
-        },36000);
+        },13000);
     });
 }
 else {

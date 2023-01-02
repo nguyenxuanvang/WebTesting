@@ -86,32 +86,32 @@ btnFnd.addEventListener('click',() => {
         }
         if(isUncontrol) {
             if(tb >= 9) {
-                noticeNode.textContent = `Rank: Good (Subject Control: ${subUncontrolList})`;
+                noticeNode.textContent = `Rank: Good (Influential Control: ${subUncontrolList})`;
                 noticeNode.classList.remove('hidden');
             }
             else {
                 if(tb >= 8) {
-                    noticeNode.textContent = `Rank: Rather (Subject Control: ${subUncontrolList})`;
+                    noticeNode.textContent = `Rank: Rather (Influential Control: ${subUncontrolList})`;
                     noticeNode.classList.remove('hidden');
                 }
                 else {
                     if(tb >= 7) {
-                        noticeNode.textContent = `Rank: Improvement (Subject Control: ${subUncontrolList})`;
+                        noticeNode.textContent = `Rank: Improvement (Influential Control: ${subUncontrolList})`;
                         noticeNode.classList.remove('hidden');
                     }
                     else {
                         if(tb >= 6) {
-                            noticeNode.textContent = `Rank: Medium (Subject Control: ${subUncontrolList})`;
+                            noticeNode.textContent = `Rank: Medium (Influential Control: ${subUncontrolList})`;
                             noticeNode.classList.remove('hidden');
                         }
                         else {
                             if(tb >= 5) {
-                                noticeNode.textContent = `Rank: Bad (Subject Control: ${subUncontrolList})`;
+                                noticeNode.textContent = `Rank: Bad (Influential Control: ${subUncontrolList})`;
                                 noticeNode.classList.remove('hidden');
                             }
                             else {
                                 if(tb >= 4) {
-                                    noticeNode.textContent = `Rank: Weak (Subject Control: ${subUncontrolList})`;
+                                    noticeNode.textContent = `Rank: Weak (Influential Control: ${subUncontrolList})`;
                                     noticeNode.classList.remove('hidden');
                                 }
                                 else {
